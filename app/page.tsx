@@ -5,7 +5,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen relative overflow-hidden bg-white-semi-active">
       <Image src="/landing-background.svg" alt="" width={1} height={1} priority className="hidden" />
-      <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/background.png')", }} />
+      <div className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/landing-background.png')", }} />
 
       <div className="z-10 absolute inset-0 flex flex-col justify-center px-8 md:px-16 lg:px-24 bg-transparent">
         <div className="space-y-5">
